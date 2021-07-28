@@ -1,0 +1,48 @@
+.blue,
+.purple,
+.green {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.blue {
+  background-color: #1861e8;
+}
+
+.green {
+  background-color: #18e85d;
+}
+
+.purple {
+  background-color: #a318e8;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  opacity: 0.2;
+  // background-color: white !important;
+  // padding: 40px;
+  // border-radius: 50%;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1;
+}
+
+.active-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
